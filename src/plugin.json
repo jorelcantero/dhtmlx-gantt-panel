@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "dhtmlx-gantt-panel",
+  "id": "jorelcantero-dhtmlx-gantt-panel",
+  "info": {
+    "description": "Grafana panel with Gantt Chart implements DHTMLX",
+    "author": {
+      "name": "Jorel Cantero",
+      "url": "https://github.com/jorelcantero"
+    },
+    "keywords": [
+      "gantt",
+      "chart",
+      "dhtmlx",
+      "panel",
+      "task",
+      "timeline"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/grafana-starter-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/grafana-starter-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  }
+}
